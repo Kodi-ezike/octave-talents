@@ -1,4 +1,5 @@
 import './home.css';
+import Rectangle9 from './images/Rectangle9.svg';
 
 const Home = () => {
     return (
@@ -11,6 +12,10 @@ const Home = () => {
                 <div className='col2'>
                     <div className="image1"> Image</div>
                 </div>
+            </div>
+            <div className='row2' style={{backgroundImage: `url(${Rectangle9})`, backgroundRepeat:'no-repeat', backgroundSize: "cover"}}>
+                <p>sadvasd</p>
+
             </div>
         </div>
     )

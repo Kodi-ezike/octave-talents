@@ -10,13 +10,20 @@ h1 {
 
 /******************* row1   **********************/
 
+.homewrapper {
+    padding: 2rem 4rem;
+    border: 2px ridge;
+}
+
 .row1 {
     display: flex;
+    height: 80vh;
 }
 
 .col1 {
     max-width: 50%;
     font-weight: 200;
+    padding-left: 2rem;
 }
 
 .col1 p{
@@ -29,12 +36,19 @@ h1 {
     background-color: aqua;
 }
 
-.homewrapper {
-    padding: 2rem 6rem;
-    border: 2px ridge;
-}
+
 
 .image1 {
     width: 100%;
     height: 100%;
+}
+
+/******************* row2   **********************/
+
+.row2 {
+    display: flex;
+    height: 80vh;
+    width: 100%;
+    border-radius: 10px;
+    /* background-image: url("../../public/assets/images/Rectangle9.svg"); */
 }
