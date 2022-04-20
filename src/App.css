@@ -3,23 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-.header{
-  padding: 2rem 6rem 1rem ;
-  border-bottom: 1px solid rgb(128, 128, 128, 0.3);
-  
-}
-.logo{
-  width: 100px;
-  height: auto;
-}
-.login-wrapper{
-  width: 570px;
-  margin: auto;
-  border: 1px solid rgb(128, 128, 128, 0.5);
-  margin: 5rem auto;
-  padding: 2rem 0;
-  border-radius: 5px;
-}
+
 .login{
   width: 400px;
   height: auto;
