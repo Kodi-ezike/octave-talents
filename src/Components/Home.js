@@ -16,8 +16,8 @@ const Home = () => {
                 <div className='row row2'>
                     <h2 className='white dBlock' style={{marginBottom: "3rem"}}>For clients</h2>
                     <div style={{height: "auto", width: "40%" }}>
-                        <h1 className='dBlock white'>Hire excellent talents</h1>
-                        <p className='dBlock white' style={{height: "auto", width: "80%", marginBottom: "3.5rem" }}>
+                        <h1 className='white'>Hire excellent talents</h1>
+                        <p className='white' style={{height: "auto", width: "80%", marginBottom: "3.5rem" }}>
                             Work with talents that have been trained by Octave to provide excellent solutions with a professional
                         </p>
                     </div>
@@ -47,7 +47,28 @@ const Home = () => {
                         <li>See all specializations</li>
                     </ul>
                 </div>
-                <div className='row row3col2'>
+                <div className='row3col2'>
+                </div>
+            </div>
+            <div className='row row4'>
+                <div className='row4col1'>
+                </div>
+                <div className='row4col2'>
+                    <h2 className='block'>For talent</h2>
+                    <h1 className='block'>Find great<br/> work</h1>
+                    <p className='block'>Meet clients you’re excited to work with and take your career or business to new heights.</p>
+                    <div className='block'>
+                        <div className='row4col2SubDiv'>
+                            <p>Find opportunities<br/> for every stage of<br/> your freelance<br/> career</p>
+                        </div>
+                        <div className='row4col2SubDiv'>
+                            <p>Control when, where,<br/> and how you work</p>
+                        </div>
+                        <div className='row4col2SubDiv'>
+                            <p>Explore different<br/> ways to earn</p>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
