@@ -1,11 +1,7 @@
 import './home.css';
+import image3 from "./images/image3.jpg";
 
 const Home = () => {
-    let features = [
-        "Post a job and hire a talent",
-        "Find customizable templates",
-        "Request the specific talents"
-    ]
 
     return (
         <div class="homewrapper">
@@ -38,11 +34,22 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className='row row2Background'>
-
+            <div className='row row3'>
+                <div className='row3col1'>
+                    <h1>Hire a talent<br/> for specific skills</h1>
+                    <ul>
+                        <li>Data analytics </li>
+                        <li>Business intelligence consultant</li>
+                        <li>Digital marketer</li>
+                        <li>Website development</li>
+                        <li>IT & technical support</li>
+                        <li>Machine learning & AI</li>
+                        <li>See all specializations</li>
+                    </ul>
+                </div>
+                <div className='row row3col2'>
+                </div>
             </div>
-
-
         </div>
     )
 }

@@ -1,3 +1,4 @@
+import {Routes, Route} from "react-router-dom";
 import './App.css';
 import Header from './Components/Header';
 import Login from './Components/Login';
@@ -8,8 +9,10 @@ function App() {
   return (
     <div className="App">
       <Header/>
-      {/* <Login/> */}
-      <Home/>
+      <Routes>
+        <Route path="/login"  element={<Login/>}/>
+        <Route path="home"  element={<Home/>} />
+      </Routes>
     </div>
   );
 }
