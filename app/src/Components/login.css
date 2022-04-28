@@ -1,0 +1,151 @@
+.login-wrapper{
+    width: 50%;
+    margin: auto;
+    border: 1px solid rgb(128, 128, 128, 0.5);
+    margin: 5rem auto;
+    padding: 2rem 0;
+    border-radius: 5px;
+  }
+  .login{
+    width: 60%;
+    height: auto;
+    margin: auto;
+  }
+  .login-text{
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .input-wrapper{
+    width: 100%;
+    border: 1px solid rgb(128, 128, 128, 0.5);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+  }
+  .username{
+    font-size: 20px;
+    margin: 10px;
+    color: #959595;
+  }
+  .input{
+    width: 100%;
+    height: 45px;
+    border:none;
+    outline: none;
+    padding-right: 15px;
+  }
+  .input::placeholder{
+    font-size: 12px;
+    color: black;
+  }
+  .login-btn{
+    width: 100%;
+    height: 50px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    text-align: center;
+  }
+  .middle-text{
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid rgb(0, 0, 0, 0.1); 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+   
+  }
+  .middle-text span { 
+    background:#fff; 
+    padding:0 10px; 
+    
+  }
+  #email-btn{
+    background-color: #ff196f;
+    margin: 1.5rem 0;
+    color: white;
+  }
+  #google-btn{
+    background-color: #3590eb;
+    padding:0 15px ;
+    margin: 1.5rem 0 0 0;
+  }
+  #facebook-btn{
+    background-color: white;
+    border: 1px solid rgb(128, 128, 128, 0.5);
+    padding:0 15px ;
+    margin: 1rem 0 2rem 0;
+  }
+  .google-text{
+    color: white;
+    margin-left: -15px;
+  }
+  .facebook-text{
+    margin-left: -15px;
+  }
+  .google-icon{
+    color: white;
+   float: left;
+   font-size: 18px;
+  }
+  .facebook-icon{
+    color: #3590eb;
+    float: left;
+    font-size: 19px
+  }
+  .signup{
+  border-top: 1.5px solid rgb(128, 128, 128, 0.5);
+  }
+  .signup p{
+    margin: 2rem 0;
+    width: 100%;
+    text-align: center;
+    line-height: 0.1px;
+    border-bottom: 1px solid rgb(128, 128, 128, 0.5);
+  }
+  .signup p span{
+    padding: 0 10px;
+    background-color: white;
+  }
+  .signup button{
+    display: block;
+    width: 150px;
+    margin: auto;
+    padding: 0.7rem;
+    background-color: white;
+    border: 1px solid #ff196f;
+    border-radius: 30px;
+    outline: none;
+  }
+  .login-footer{
+    padding: 2rem;
+    background-color: #0B63A9;
+    text-align: center;
+    line-height: 24px;
+    color: white;
+    font-size: 14px;
+  }
+  #copyright{
+    margin-bottom: 1.2rem;
+  }
+  
+  
+  
+  
+  
+  @media screen and (max-width:768px){
+    .login-wrapper{
+      width: 70%;
+    }
+    .login{
+      width: 70%;
+    }
+  }
+  @media screen and (max-width:600px){
+    .login-wrapper{
+      width: 80%;
+    }
+    .login{
+      width: 90%;
+    }
+  }
