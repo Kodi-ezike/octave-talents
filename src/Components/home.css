@@ -19,7 +19,7 @@ h1 {
     display:block
 }
 
-/********************************* row1   *******************************/
+/************* row1   ***************/
 
 .homewrapper {
     padding: 2rem 2rem;
@@ -56,7 +56,7 @@ h1 {
 
 
 
-/************************************ row2   ********************************/
+/************* row2   ***************/
 
 .row2Background {
     /* background-image: url("./images/Rectangle9.svg"); */
@@ -75,12 +75,30 @@ h1 {
     opacity: 1;
     background-repeat: no-repeat;
     background-size:cover;
-    background-position: 0% 50%;
-    height: 90vh;
+    background-position: 0% 45%;
+    min-height: 90vh;
     width: 100%;
+    margin-bottom: 2rem;
     padding: 3rem;
     padding-top: 2rem;
     border-radius: 10px;
+}
+
+.row2 > h2 {
+    color:#ffffff
+}
+
+.row2 .first-div {
+    height: auto;
+    width: 40%;
+    color:#ffffff;
+    margin: 3rem 0 4rem 0;
+}
+
+.feture_container {
+    display:flex;
+    justify-content:space-between;
+    margin: 1rem 1 0 0;
 }
 
 .feature {
@@ -99,7 +117,7 @@ h1 {
 
 
 
-/************************************ row3   *******************************/
+/************* row3   ***************/
 
 .row3 {
     display: flex;
@@ -139,7 +157,7 @@ h1 {
 
 
 
-/********************************** row4   *******************************/
+/************* row4   ***************/
 
 .row4 {
     display: flex;
@@ -193,7 +211,7 @@ h1 {
 
 @media (max-width: 1008px) {
 
-    /************************************ row2   *****************************/
+/************* row1   ***************/
 
     .homewrapper {
         padding: .5rem 1rem .5rem 1rem;
@@ -232,6 +250,34 @@ h1 {
 
     }
 
+    /************* row2   ***************/
+
+    .row2 {
+        background-position: center;
+        padding: 3rem;
+        padding-top: 2rem;
+    }
+
+    .row2 > h2 {
+        color:#ffffff;
+    }
+
+    .row2 .first-div {
+        height: auto;
+        width: 50%;
+        color:#ffffff;
+        /* background-color: #ff8fc7; */
+        margin: 1.6rem 0;
+    }
+
+    .feture_container {
+        display:flex;
+        justify-content:space-between;
+    }
+
+
+
+
 }
 
 
@@ -240,11 +286,7 @@ h1 {
 
 @media (max-width: 640px) {
 
-    .feature {
-        display: none;
-    }
-
-    /************************************ row2   *****************************/
+    /************* row1   ***************/
 
     .homewrapper {
         padding: .5rem 1rem .5rem 1rem;
@@ -283,6 +325,36 @@ h1 {
         max-height: 60%;
         margin-top:0;
 
+    }
+
+    /************* row2   ***************/
+
+    .row2 {
+        background-position: center;
+        padding: 1rem;
+        padding-top: 1rem;
+    }
+
+    .row2 .first-div {
+        height: auto;
+        width: 80%;
+        color:#ffffff;
+        /* background-color: #ff8fc7; */
+        margin: 1.5rem 0;
+    }
+
+    .feture_container {
+        display:flex;
+        flex-direction: column;
+        justify-content:space-between;
+        /* margin: 1rem 1 0 0; */
+    }
+
+    .feature {
+        width: 80%;
+        align-self: flex-start;
+        padding: 1rem 2rem;
+        margin-bottom: .5rem;
     }
 
 }

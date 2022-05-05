@@ -4,23 +4,23 @@ const Home = () => {
 
     return (
         <div class="homewrapper">
-            <div className='row row1'>
+            <div className='row1'>
                 <div className='col1'>
                     <h1>Outsourcing the best tech talents</h1>
                     <p>We provide the best technology talents to build solutions that best suit your needs.</p>
                 </div>
                 <div className='col2'></div>
             </div>
-            <div className='row row2Background'>
-                <div className='row row2'>
-                    <h2 className='white dBlock' style={{marginBottom: "3rem"}}>For clients</h2>
-                    <div style={{height: "auto", width: "40%" }}>
-                        <h1 className='white'>Hire excellent talents</h1>
-                        <p className='white' style={{height: "auto", width: "80%", marginBottom: "3rem" }}>
+            <div className='row2Background'>
+                <div className=' row2'>
+                    <h2>For clients</h2>
+                    <div className='first-div'>
+                        <h1>Hire excellent talents</h1>
+                        <p>
                             Work with talents that have been trained by Octave to provide excellent solutions with a professional
                         </p>
                     </div>
-                    <div className='' style={{display:"flex", justifyContent:"space-between"}}>
+                    <div className='feture_container'>
                         <div className='feature'>
                             <p>Post a job<br/> and hire a talent</p>
                         </div>
