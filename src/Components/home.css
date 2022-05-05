@@ -1,4 +1,7 @@
-/************************************* Global styles   *******************************************/
+
+/*###################################      Large screen   ###################################*/
+
+/****************************** Global styles   *************************/
 
 .border {
     border: 2px ridge;
@@ -6,10 +9,6 @@
 h1 {
     font-size:4rem;
     line-height: 1.2;
-}
-
-.row {
-    margin-top: 3rem;
 }
 
 .white {
@@ -20,15 +19,15 @@ h1 {
     display:block
 }
 
-/**************************************** row1   **********************************************/
+/********************************* row1   *******************************/
 
 .homewrapper {
-    padding: 2rem 4rem;
-    border: 2px ridge;
+    padding: 2rem 2rem;
 }
 
 .row1 {
     display: flex;
+    justify-content: space-between;
     height: 80vh;
 }
 
@@ -50,13 +49,14 @@ h1 {
     background-image: url("./images/image1.svg");
     background-repeat: no-repeat;
     background-size: "cover";
+    background-position: right;
     min-width: 50%;
     max-height: 80vh;
 }
 
 
 
-/************************************************* row2   ************************************************/
+/************************************ row2   ********************************/
 
 .row2Background {
     /* background-image: url("./images/Rectangle9.svg"); */
@@ -87,7 +87,7 @@ h1 {
     height: auto;
     color: #ffffff;
     background-color:#FF196F;
-    padding: 2rem 3rem;
+    padding: 1.8rem 2.2rem;
     font-size: 300;
     /* marginRightt:"4%"; */
     border-radius:1rem
@@ -99,7 +99,7 @@ h1 {
 
 
 
-/************************************************** row3   *****************************************/
+/************************************ row3   *******************************/
 
 .row3 {
     display: flex;
@@ -139,7 +139,7 @@ h1 {
 
 
 
-/************************************************** row4   *************************************************/
+/********************************** row4   *******************************/
 
 .row4 {
     display: flex;
@@ -184,4 +184,105 @@ h1 {
 
 .row4col2 h2, .row4col2 p {
     padding-bottom: 3rem;
+}
+
+
+
+/*###################################      medium screen   ###################################*/
+
+
+@media (max-width: 1008px) {
+
+    /************************************ row2   *****************************/
+
+    .homewrapper {
+        padding: .5rem 1rem .5rem 1rem;
+    }
+
+    .row1 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .row1 .col1 {
+        align-self: center;
+        width: 60%;
+        height: auto;
+        font-weight: 100;
+        padding-left: 2rem;
+    }
+    .row1 .col1 h1 {
+        color: #0F2F8C;
+    }
+
+    .col1 p{
+        font-weight: 400;
+        width: 90%;
+    }
+
+    .row1 .col2 {
+        align-self: center;
+        background-image: url("./images/image1.svg");
+        background-repeat: no-repeat;
+        background-size: "cover";
+        background-position: right;
+        margin-top: 2rem;
+        min-height: 70%;
+        max-height: 70%;
+
+    }
+
+}
+
+
+
+/*###################################      Small screen   ###################################*/
+
+@media (max-width: 640px) {
+
+    .feature {
+        display: none;
+    }
+
+    /************************************ row2   *****************************/
+
+    .homewrapper {
+        padding: .5rem 1rem .5rem 1rem;
+    }
+
+    .row1 {
+        display: block;
+        height: 110vh
+    }
+
+    .row1 .col1 {
+        align-self: center;
+        min-width: 100% ;
+        height: fit-content;
+        padding-left: 1rem;
+    }
+    .row1 .col1 h1 {
+        color: #0F2F8C;
+        /* font-weight: normal; */
+        line-height: 3.7rem;
+
+    }
+
+    .col1 p{
+        font-weight: 400;
+        width: 90%;
+    }
+
+    .row1 .col2 {
+        background-image: url("./images/image1.svg");
+        /* background-color: #ff8fc7; */
+        background-repeat: no-repeat;
+        background-size: "cover";
+        background-position: center;
+        min-width: 50%;
+        max-height: 60%;
+        margin-top:0;
+
+    }
+
 }

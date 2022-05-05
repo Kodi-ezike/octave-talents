@@ -1,5 +1,4 @@
 import './home.css';
-import image3 from "./images/image3.jpg";
 
 const Home = () => {
 
@@ -17,11 +16,11 @@ const Home = () => {
                     <h2 className='white dBlock' style={{marginBottom: "3rem"}}>For clients</h2>
                     <div style={{height: "auto", width: "40%" }}>
                         <h1 className='white'>Hire excellent talents</h1>
-                        <p className='white' style={{height: "auto", width: "80%", marginBottom: "3.5rem" }}>
+                        <p className='white' style={{height: "auto", width: "80%", marginBottom: "3rem" }}>
                             Work with talents that have been trained by Octave to provide excellent solutions with a professional
                         </p>
                     </div>
-                    <div className='dBlock' style={{display:"flex", justifyContent:"space-between"}}>
+                    <div className='' style={{display:"flex", justifyContent:"space-between"}}>
                         <div className='feature'>
                             <p>Post a job<br/> and hire a talent</p>
                         </div>
