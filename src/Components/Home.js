@@ -33,7 +33,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className='row row3'>
+            <div className='row3'>
                 <div className='row3col1'>
                     <h1>Hire a talent<br/> for specific skills</h1>
                     <ul>
