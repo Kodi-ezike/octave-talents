@@ -1,0 +1,11 @@
+ .header__search__dropdown{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.header__search__dropdown__option .svg{
+    width: 10px;
+    height: 10px;
+    fill: var(--dark-grey);
+}
