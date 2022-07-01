@@ -1,0 +1,77 @@
+.home-footer{
+    padding: 2rem 6rem;
+    background-color: #0b63a9;
+    color: white;
+    position: relative;
+}
+.footer-links{
+    display: flex;
+    width: 100%;
+    margin-bottom: 5rem;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+.links a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 10px 0;
+}
+#top-link{
+    margin-bottom: 30px;
+}
+.social-media{
+    display: flex;
+    padding: 1.5rem 0;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+.social-media-icons{
+    margin-left: 50px;
+}
+.social-media-icons a{
+    color: white;
+    font-size: 20px;
+    margin: 0 5px;
+}
+.copyright{
+    margin-top: 2rem;
+    font-size: 12px;
+}
+.scroll-container{
+    padding: 20px;
+    border-radius: 50%;
+    background-color: white;
+}
+.scrollTop {
+    position: fixed; 
+    width: 20px;
+    bottom: 20px;
+    right: 5.9rem;
+   padding: 20px;
+   background: antiquewhite;
+    
+    z-index: 1000;
+    cursor: pointer;
+    animation: fadeIn 0.3s;
+    transition: opacity 0.4s;
+    opacity: 0.5;
+  }
+  .scroll{
+      color: green;
+  }
+  .scrollTop:hover{
+    opacity: 1;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0.5;
+    }
+  }

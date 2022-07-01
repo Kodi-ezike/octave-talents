@@ -47,15 +47,16 @@
     border: none;
     text-align: center;
   }
-  .middle-text{
+  .login .middle-text{
     width: 100%; 
     text-align: center; 
-    border-bottom: 1px solid rgb(0, 0, 0, 0.1); 
+    border-bottom: 1px solid rgb(0, 0, 0, 0.3); 
     line-height: 0.1em;
-    margin: 10px 0 20px; 
+    margin: 1.5rem 0 ; 
+
    
   }
-  .middle-text span { 
+  .login .middle-text span { 
     background:#fff; 
     padding:0 10px; 
     
@@ -117,23 +118,12 @@
     border-radius: 30px;
     outline: none;
   }
-  .login-footer{
-    padding: 2rem;
-    background-color: #0B63A9;
-    text-align: center;
-    line-height: 24px;
-    color: white;
-    font-size: 14px;
-  }
-  #copyright{
-    margin-bottom: 1.2rem;
-  }
   
   
   
   
   
-  @media screen and (max-width:768px){
+  @media screen and (max-width:1024px){
     .login-wrapper{
       width: 70%;
     }

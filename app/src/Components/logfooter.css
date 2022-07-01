@@ -1,0 +1,16 @@
+.login-footer{
+    padding: 2rem;
+    background-color: #0B63A9;
+    text-align: center;
+    line-height: 24px;
+    color: white;
+    font-size: 14px;
+}
+.login-footer a{
+    color: white;
+    text-decoration: none;
+}
+#copyright{
+    margin-bottom: 1.2rem;
+}
+  

@@ -29,6 +29,63 @@
 .option p{
     margin: 40px 0 0 0;
     text-align: center;
-   
-
 }
+.create-btn{
+    width: 50%;
+    height: 50px;
+    margin: auto;
+    display: block;
+    border: 1px solid rgb(128, 128, 128, 0.5);
+    border-radius: 30px;
+    background-color: white;
+    font-size: 16px;
+}
+.login-direct{
+    margin: 1rem 0 0 0;
+    text-align: center;
+}
+.log{
+    color: #ff196f;
+}
+
+
+@media screen and (max-width:1024px){
+    .join-wrapper{
+      width: 70%;
+    }
+    
+  }
+
+  @media screen and (max-width:768px){
+    .join-wrapper{
+      width: 80%;
+    }
+    .option p{
+        margin: 30px 0 0 0;
+    }
+  }
+  
+  
+  @media screen and (max-width:600px){
+    .join-text{
+        font-size: 25px;
+      
+       
+    }
+    .option{
+        width: 40%;
+        height: 100px;
+        border: 1px solid rgb(128, 128, 128, 0.5);
+        border-radius: 10px;
+        padding: 0.5rem;
+        font-size: 12px;
+       
+    }
+    .option p{
+        margin: 20px 0 0  0 ;
+    }
+    .create-btn,.login-direct{
+        font-size: 14px;
+    }
+  
+  }

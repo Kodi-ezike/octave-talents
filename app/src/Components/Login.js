@@ -2,6 +2,7 @@ import "./login.css"
 import {FaUserAlt} from "react-icons/fa";
 import {FaGoogle} from "react-icons/fa";
 import {FaFacebook} from "react-icons/fa";
+import { Link } from "react-router-dom";
 const Login = () => {
   return (
     <div className="login-wrapper">
@@ -26,7 +27,7 @@ const Login = () => {
         <div className="signup">
             <p><span>Don't have an account?</span></p>
 
-            <button>Sign Up</button>
+           <Link to = '/'><button >Sign Up</button></Link> 
         </div>
     </div>
   )

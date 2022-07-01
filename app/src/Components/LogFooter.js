@@ -1,3 +1,4 @@
+import "./logfooter.css"
 const LogFooter = () => {
   return (
     <div className='login-footer'>
